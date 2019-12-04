@@ -4,7 +4,6 @@ from flask_sqlalchemy import SQLAlchemy
 from project.config import Config
 
 db = SQLAlchemy()
-
 # App Factory
 def create_app(config_class=Config):
     app = Flask(__name__)
